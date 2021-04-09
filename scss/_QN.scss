@@ -1,0 +1,366 @@
+#QHGrid{
+	padding: 5vw;
+	height: 80vh;
+	width: 94vw;
+	margin: 1vw;
+	display: grid;
+	grid-gap: 1vw 1vh;
+	grid-template-rows: 0.5fr 1fr 0.8fr;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-areas: 
+	"QHA QHA QHA"
+	"QHB QHC QHD"
+	"QHE QHE QHE";
+	align-items: center;
+	justify-content: space-around;
+	align-content: start;
+	font-size: 1vw;
+	
+
+
+}
+
+
+
+#QHA{
+	grid-area: QHA;
+	display:flex; 
+	flex-direction: row;
+	flex-wrap: nowrap;
+	transition: color 3s, background-color 3s;
+
+
+}
+
+#QHA:hover{
+	background-color: white;
+	color: black;
+}
+
+#QHA div {
+	border: solid white 0.2vw;
+	
+}
+
+
+#QHB{
+	grid-area: QHB;
+	display:flex; 
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	transition: color 3s, background-color 3s;
+	
+}
+
+
+#QHB div{
+	border:solid white 0.2vw;
+}
+
+#QHB:hover{
+	background-color: white;
+	color: black;
+}
+
+#QHC{
+	grid-area: QHC;
+	display:flex; 
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: stretch;
+	transition: color 3s, background-color 3s;
+}
+
+#QHC div{
+	border:solid white 0.2vw;
+}
+
+#QHC:hover{
+	background-color: white;
+	color: black;
+}
+
+#QHD{
+	grid-area: QHD;
+	display:flex; 
+	flex-direction: column;
+	flex-wrap: nowrap;
+	transition: color 3s, background-color 3s;
+}
+
+
+#QHD div{
+	border:solid white 0.2vw;
+}
+
+#QHD:hover{
+	background-color: white;
+	color: black;
+}
+#QHE{
+	grid-area: QHE;
+	display:flex; 
+	flex-direction: row;
+	flex-wrap: nowrap;
+	transition: color 3s, background-color 3s;
+}
+
+
+
+#QHE div{
+	border:solid white 0.2vw;
+}
+
+#QHE:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+@media only screen and ( max-width: 1199px){
+	#QHGrid{
+			padding: 5vw;
+			height: 80vh;
+			width: 94vw;
+			margin: 1vw;
+			display: grid;
+			grid-gap: 1vw 1vh;
+			grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+			grid-template-columns: 1fr 1fr;
+			grid-template-areas: 
+			"QHA QHA "
+			"QHB QHB "
+			"QHC QHC "
+			"QHD QHD " 
+			"QHE QHE";
+			align-items: center;
+			justify-content: space-around;
+			align-content: start;
+			font-size: 1vw;  }
+
+
+	#QHA{
+			grid-area: QHA;
+			display:flex; 
+			flex-direction: column;
+			flex-wrap: nowrap;
+			transition: color 3s, background-color 3s;
+
+
+		}
+
+		#QHA:hover{
+			background-color: white;
+			color: black;
+			background-image:linear-gradient(white, #ababab);
+		}
+
+		#QHA div {
+			border:solid white 0.2vw;
+			
+		}
+
+
+		#QHB{
+			grid-area: QHB;
+			display:flex; 
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-around;
+			transition: color 3s, background-color 3s;
+			
+		}
+
+
+		#QHB div{
+			border:solid white 0.2vw;
+		}
+
+		#QHB:hover{
+			background-color: white;
+			color: black;
+			background-image:linear-gradient(white, #ababab);
+		}
+
+		#QHC{
+			grid-area: QHC;
+			display:flex; 
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-content: stretch;
+			transition: color 3s, background-color 3s;
+		}
+
+		#QHC div{
+			border:solid white 0.2vw;
+		}
+
+		#QHC:hover{
+			background-color: white;
+			color: black;
+			background-image:linear-gradient(white, #ababab);
+		}
+
+		#QHD{
+			grid-area: QHD;
+			display:flex; 
+			flex-direction: column;
+			flex-wrap: nowrap;
+			transition: color 3s, background-color 3s;
+		}
+
+
+		#QHD div{
+			border:solid white 0.2vw;
+		}
+
+		#QHD:hover{
+			background-color: white;
+			color: black;
+			background-image:linear-gradient(white, #ababab);
+		}
+		#QHE{
+			grid-area: QHE;
+			display:flex; 
+			flex-direction: row;
+			flex-wrap: nowrap;
+			transition: color 3s, background-color 3s;
+		}
+
+
+
+		#QHE div{
+			border:solid white 0.2vw;
+		}
+
+		#QHE:hover{
+			background-color: white;
+			color: black;
+			background-image:linear-gradient(white, #ababab);
+		}
+}
+
+@media only screen and (max-width:319px){
+	#QHGrid{
+						padding: 5vw;
+						height: 80vh;
+						width: 94vw;
+						margin: 1vw;
+						display: grid;
+						grid-gap: 1vw 1vh;
+						grid-template-rows: 0.5fr 1fr 0.8fr;
+						grid-template-columns: 2fr 2fr 2fr;
+						grid-template-areas: 
+						"QHA QHA QHA"
+						"QHB QHC QHD"
+						"QHE QHE QHE";
+						align-items: center;
+						justify-content: space-around;
+						align-content: start;
+						font-size: 1vw;
+						
+
+
+					}
+
+
+
+					#QHA{
+						grid-area: QHA;
+						display:flex; 
+						flex-direction: row;
+						flex-wrap: nowrap;
+						transition: color 3s, background-color 3s;
+
+
+					}
+
+					#QHA:hover{
+						background-color: white;
+						color: black;
+					}
+
+					#QHA div {
+						border:solid white 0.2vw;
+						
+					}
+
+
+					#QHB{
+						grid-area: QHB;
+						display:flex; 
+						flex-direction: column;
+						flex-wrap: nowrap;
+						justify-content: space-around;
+						transition: color 3s, background-color 3s;
+						
+					}
+
+
+					#QHB div{
+						border:solid white 0.2vw;
+					}
+
+					#QHB:hover{
+						background-color: white;
+						color: black;
+					}
+
+					#QHC{
+						grid-area: QHC;
+						display:flex; 
+						flex-direction: column;
+						flex-wrap: nowrap;
+						align-content: stretch;
+						transition: color 3s, background-color 3s;
+					}
+
+					#QHC div{
+						border:solid white 0.2vw;
+					}
+
+					#QHC:hover{
+						background-color: white;
+						color: black;
+					}
+
+					#QHD{
+						grid-area: QHD;
+						display:flex; 
+						flex-direction: column;
+						flex-wrap: nowrap;
+						transition: color 3s, background-color 3s;
+					}
+
+
+					#QHD div{
+						border:solid white 0.2vw;
+					}
+
+					#QHD:hover{
+						background-color: white;
+						color: black;
+					}
+					#QHE{
+						grid-area: QHE;
+						display:flex; 
+						flex-direction: row;
+						flex-wrap: nowrap;
+						transition: color 3s, background-color 3s;
+					}
+
+
+
+					#QHE div{
+						border:solid white 0.2vw;
+					}
+
+					#QHE:hover{
+						background-color: white;
+						color: black;
+					}
+}

@@ -1,0 +1,116 @@
+
+	
+@for $P from 1 through 3{
+	#Parrafo-#{$P}{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	border: solid white 3px;
+	}
+}		
+.Parrafos:hover{
+	transform:5s;
+	background-image: linear-gradient(#ababab, #6e6e6e);
+	color: black;					
+}
+
+
+
+
+#Img1 {
+	flex: 3
+}
+
+
+#Img2 {
+	flex: 3
+}
+
+.animate__animated.animate__fadeInLeft{
+	--animate-duration: 2s;
+	--animate-delay: 7s;
+}
+
+.animate__animated.animate__fadeIn{
+	--animate-duration: 2s;
+	--animate-delay:7s;
+}
+
+
+.rounded-pill{
+	margin: 0.5vh 0.5vh;
+	border: double white 0.1px;
+	display: inline-block;
+	width: 15vw;
+	height: 12vw;
+}
+
+@media only screen and ( max-width: 1199px){
+	@for $P from 1 through 3{
+	#Parrafo-#{$P}{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	border: solid white 3px;
+	}
+}
+
+	
+
+		#GIPB{
+			grid-area:GIPB
+		}
+
+		#Img1{
+			grid-area: ImgA
+		}
+		
+	
+		#GIPC{
+			grid-area: GIPC
+		}
+
+		#Img2{
+			grid-area: ImgB
+		}
+		.Img{
+			width: 70vw;
+			height: 20vh;
+
+		}
+}
+
+@media only screen and (max-width:319px){
+
+			@for $P from 1 through 3{
+			#Parrafo-#{$P}{
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: nowrap;
+			border: solid white 3px;
+			}
+		}
+			
+
+				#GIPB{
+					grid-area:GIPB
+				}
+
+				#Img1{
+					grid-area: ImgA
+				}
+				
+				
+
+				#GIPC{
+					grid-area: GIPC
+				}
+
+				#Img2{
+					grid-area: ImgB
+				}
+				.Img{
+					width: 70vw;
+					height: 20vh;   }
+
+}

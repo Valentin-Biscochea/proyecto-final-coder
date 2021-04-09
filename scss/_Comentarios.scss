@@ -1,0 +1,365 @@
+/*
+.Navegador ul{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: baseline;
+	list-style: none;
+}
+
+.Navegador ul li{
+	flex: 1;
+
+
+}
+
+.Navegador ul li a{
+	display: block;
+}
+
+
+
+
+
+#Titulo img{
+	width:100vw;
+	align-items: center;
+	
+}
+
+
+*/
+
+/* Submenu
+.Navegador ul ul {
+   width: 25%;
+   position: absolute;
+   font-size: 2em ;
+   display: none;
+ 
+
+}
+.Navegador ul ul li{
+	background-color: #2b1236;
+	display:block;
+	text-align:center;
+	width:40%;
+	border: solid white 1px;
+	font-size: 2vh;
+
+}
+
+
+.Navegador ul li:hover ul {
+   display:block;
+}
+*/
+
+/*#A{
+	background-color:#2b1236;
+	color: white;
+	text-decoration: none;	
+	font-size: 2vw  */
+
+/*
+#Tabla{
+	color: white;
+	background-color: #1045ad;
+	margin: auto;
+	border-spacing: 10px;
+	white-space: 20px;
+
+}
+
+th{
+	font-weight: bolder;
+}
+
+#Contacto{
+	background-color:#2b1236
+
+}
+
+
+form{
+	color: white
+
+}
+
+.List-Ordenada{
+	list-style-type: upper-roman;
+	margin: auto;
+	padding: 30px;
+	text-align: justify;
+}
+
+.List-Desordenada{
+	list-style-type: upper-latin;
+	margin: auto;
+	padding: 30px;
+	text-align: justify;
+	
+}
+
+.List-Definicion{
+	list-style-type: lower-roman;
+	margin: auto;
+	padding: 30px;
+	text-align: justify;
+}
+*/ ---contacto---
+
+
+
+
+/*.Contacto_animate__animated_animate__backInRight{
+	height:70vw;
+	width:99.5vw;
+	background-color:#2b1236;
+	display:grid;
+	align-items:center;
+	justify-content: center;
+	justify-items:center;
+	color:#ffffff;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: 40vw 40vw;
+	grid-template-areas:
+		"C__H C__H"
+		"C__N C__MEN"
+		"C__M C__MEN"
+		"C__SEL C__MEN "
+		"C__OP C__OP";
+--animate-duration: 2s;
+  --animate-delay: 7s;
+	
+	
+	
+	
+
+
+
+	.Contacto__H{
+		grid-area: C__H;
+	
+		
+
+	}
+
+	.Contacto__Nombre{
+	grid-area: C__N;
+
+
+	}
+
+	.Contacto__Mail{
+	grid-area:C__M;
+
+	}
+
+	.Contacto__Mensaje{
+	grid-area: C__MEN;
+		
+	}
+
+	.Contacto__Selector{
+	grid-area:C__SEL;
+	
+	}	
+
+	.Contacto__Opcional{
+	grid-area:C__OP;
+
+}
+}
+@media only screen and ( max-width: 1199px){
+	.Contacto{
+	border:black solid 2px;
+	height:70vw;
+	width:99.5vw;
+	background-color:#2b1236;
+	display:grid;
+	align-items:center;
+	justify-content: center;
+	justify-items:center;
+	color:#ffffff;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: 40vw 40vw;
+	grid-template-areas:
+		"C__H C__H"
+		"C__N C__MEN"
+		"C__M C__MEN"
+		"C__SEL C__MEN "
+		"C__OP C__OP"
+		
+	;
+	
+	
+
+
+}
+.Contacto__H{
+	grid-area: C__H;
+
+
+}
+
+.Contacto__Nombre{
+	grid-area: C__N;
+
+}
+
+.Contacto__Mail{
+	grid-area:C__M;
+
+}
+
+.Contacto__Mensaje{
+	grid-area: C__MEN;
+	
+}
+
+.Contacto__Selector{
+	grid-area:C__SEL;
+	
+}	
+
+.Contacto__Opcional{
+	grid-area:C__OP;
+
+}
+
+}
+
+@media only screen and ( min-width: 900px){
+	.Contacto{
+	border:black solid 2px;
+	height:70vw;
+	width:99.5vw;
+	background-color:#2b1236;
+	display:grid;
+	align-items:center;
+	justify-content: center;
+	justify-items:center;
+	color:#ffffff;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: 40vw 40vw;
+	grid-template-areas:
+		"C__H C__H"
+		"C__N C__MEN"
+		"C__M C__MEN"
+		"C__SEL C__MEN "
+		"C__OP C__OP"
+		
+	;
+	
+	
+
+
+}
+.Contacto__H{
+	grid-area: C__H;
+
+
+}
+
+.Contacto__Nombre{
+	grid-area: C__N;
+
+}
+
+.Contacto__Mail{
+	grid-area:C__M;
+
+}
+
+.Contacto__Mensaje{
+	grid-area: C__MEN;
+	
+}
+
+.Contacto__Selector{
+	grid-area:C__SEL;
+	
+}	
+
+.Contacto__Opcional{
+	grid-area:C__OP;
+
+}
+
+	#PCEN{
+	font-size: 12em;
+}
+
+	}
+.carousel-item, .carousel-item-active{
+	padding:1em;
+	margin: 1em;
+
+}
+
+.H2C{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#2b1236 
+
+}
+
+@media only screen and (max-width:319px){
+	.Contacto{
+					
+						height:70vw;
+						width:99.5vw;
+						background-color:#2b1236;
+						display:grid;
+						align-items:center;
+						justify-content: center;
+						justify-items:center;
+						color:#ffffff;
+						grid-template-rows: repeat(5, 1fr);
+						grid-template-columns: 40vw 40vw;
+						grid-template-areas:
+							"C__H C__H"
+							"C__N C__MEN"
+							"C__M C__MEN"
+							"C__SEL C__MEN "
+							"C__OP C__OP"
+							
+						;
+						
+						
+
+
+					}
+					.Contacto__H{
+						grid-area: C__H;
+
+
+					}
+
+					.Contacto__Nombre{
+						grid-area: C__N;
+
+					}
+
+					.Contacto__Mail{
+						grid-area:C__M;
+
+					}
+
+					.Contacto__Mensaje{
+						grid-area: C__MEN;
+						
+					}
+
+					.Contacto__Selector{
+						grid-area:C__SEL;
+						
+					}	
+
+					.Contacto__Opcional{
+						grid-area:C__OP;
+
+					}}
+*/

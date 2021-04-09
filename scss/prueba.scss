@@ -1,0 +1,398 @@
+@import "QN", "QH", "P", "C", "TP";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #ffffff;
+	max-width: 100% ; 
+	background: black;
+
+}
+body{
+	background-image: linear-gradient(black,#2b2b2b)
+}
+
+
+#Titulo{
+	display: inline-block;
+	width: 99.5vw
+
+}
+
+#Titulo img{
+	width: 99.5vw
+
+}
+
+
+.Navegador{
+	background-color: #2b1236;
+	height: 14vh;
+	width: 100vw;
+	text-align: center;
+	border: solid 1px white;
+	
+
+	
+}
+
+.Navegador__Ul__Li{
+	display: inline-block;
+	padding: 0 2.5vw;
+	font-size: 1.5vw;
+	margin:0px 1vw;	
+	text-decoration: none;
+	color: #ffffff;
+	
+	
+}
+
+
+.Navegador__Ul__Li__A {
+	display: block;
+	color: white;  
+	text-decoration: none; 
+
+}
+
+
+
+
+
+
+a .Icon
+{
+	background-color: purple; 
+	width: 2.4vw;
+	height: 4.5vh;
+}
+
+a .Icon:hover{
+	transform: scale(2);
+	margin: 0vw 0.5vw;
+	padding: 0vw 0.3vh;
+}
+
+.Navegador ul li:hover{
+	  transform: translate(-10px, -10px);
+	 
+	 
+}
+
+.MenuIcon{
+	width: 4vw;
+	height:8vh;
+   ;
+}
+
+
+
+#MenuPrincipal{
+	background-color: #2b1236;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5vw
+
+}
+
+iframe{
+	width: 60vw;
+	height: 50vh;
+	
+
+}
+
+						
+
+
+
+footer{
+	margin:2vw 2vw;
+	border: solid white 3px;
+	word-spacing: 0.5vw;
+	font-size: 1vw;
+}
+
+
+#Carrousel{
+	display:grid;
+	place-items:center; 
+}
+#PCEN{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	
+	
+
+
+
+
+
+
+
+		@media only screen and ( max-width: 1199px){
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html{
+			font-family: 'Noto Sans JP', sans-serif;
+			color: white ;
+			max-width: 100% ;
+		}
+
+
+
+		body{
+			background-color: black;
+		}
+
+
+		#Titulo{
+			display: inline-block;
+			width: 99.5vw
+
+		}
+
+		#Titulo img{
+			width: 99.5vw
+
+		}
+
+		.Navegador{
+			background: #2b1236;
+			width: 99.5vw;
+			height: 17vh;
+			text-align:center;
+
+		}
+
+		
+
+		
+
+		.Navegador{
+			background-color: #2b1236;
+			height: 14vh;
+			width: 100vw;
+			text-align: center;
+			border: solid 1px white;
+
+			
+			
+		}
+
+		.Navegador__Ul__Li{
+			display: inline-block;
+			padding: 0 2.5vw;
+			font-size: 1.5vw;
+			margin:0px 1vw;	
+			text-decoration: none;
+			color: #ffffff;
+			
+		}
+
+
+		.Navegador__Ul__Li__A {
+			display: block;
+			color: white;  
+			text-decoration: none; 
+
+		}
+
+		
+		
+	
+
+		.Icon
+		{
+			background-color: purple; 
+			width: 1em;
+			height: 2em;
+		}
+
+
+		.MenuIcon{
+			width: 4vw;
+			height:8vh;
+		   
+		}
+
+		#MenuPrincipal{
+			background-color: #2b1236;
+			color: white;
+			text-decoration: none;
+			font-size: 1.5vw
+
+		}
+
+		iframe{
+			width: 60vw;
+			height: 50vh;
+			
+
+		}
+
+		#A{
+			background-color:#2b1236;
+			color: white;
+			text-decoration: none;	
+			font-size: 2vw  
+		}
+
+
+		
+
+
+		
+			
+
+
+		
+
+
+
+		
+	
+		}
+
+
+
+
+
+
+
+
+
+				@media only screen and (max-width:319px){
+				*{
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+				}
+				html{
+					font-family: 'Noto Sans JP', sans-serif;
+					color: purple;
+					max-width: 100% ;
+				}
+
+
+
+				body{
+					background-color: white;
+				}
+
+
+				#Titulo{
+					display: inline-block;
+					width: 99.5vw
+
+				}
+
+				#Titulo img{
+					width: 99.5vw
+
+				}
+
+				.Navegador{
+					background: #2b1236;
+					width: 99.5vw;
+					height: 17vh;
+					text-align:center;
+
+				}
+
+				
+					
+
+				.Navegador{
+					background-color: #2b1236;
+					height: 14vh;
+					width: 100vw;
+					text-align: center;
+					border: solid 1px white;
+
+					
+					
+				}
+
+				.Navegador__Ul__Li{
+					display: inline-block;
+					padding: 0 2.5vw;
+					font-size: 1.5vw;
+					margin:0px 1vw;	
+					text-decoration: none;
+					color: #ffffff;
+					
+				}
+
+
+				.Navegador__Ul__Li__A {
+					display: block;
+					color: white;  
+					text-decoration: none; 
+
+				}
+
+
+
+				
+
+				.Icon
+				{
+					background-color: purple; 
+					width: 1em;
+					height: 2em;
+				}
+
+
+				.MenuIcon{
+					width: 4vw;
+					height:8vh;
+				   
+				}
+
+				#MenuPrincipal{
+					background-color: #2b1236;
+					color: white;
+					text-decoration: none;
+					font-size: 1.5vw
+
+				}
+
+				iframe{
+					width: 60vw;
+					height: 50vh;
+					
+
+				}
+
+				#A{
+					background-color:#2b1236;
+					color: white;
+					text-decoration: none;	
+					font-size: 2vw  
+				}
+
+			
+			
+				
+					
+
+					footer{
+						margin:2vw 2vw;
+						border: solid white 3px;
+						word-spacing: 0.5vw;
+						font-size: 1vw;
+					}
+
+					
+
+					}

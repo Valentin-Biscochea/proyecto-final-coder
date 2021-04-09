@@ -1,0 +1,45 @@
+@mixin formas($width, $height, $color-fondo, $border){
+	height:$height;
+	width:$width;
+	background-color:$color-fondo;
+	border: $border;
+}
+.Contenedor__QH{
+	color:white;
+	}
+
+	#Div__principal
+	{
+		display:flex;
+		flex-direction: column;
+		overflow: hidden;
+		margin: 0px 3vw;
+
+
+		div{
+			transition: width 3s, height 3s, background-color 3s, color 3s;
+			@include formas(20vw, 30vh, black, (solid 3px white);
+			padding:10vh 0px;
+
+	
+			
+
+
+		}
+	
+		div :hover{
+			z-index:3; 
+		width: 40vw;
+		height: 20vw;
+		position: relative;
+		left:20vw;
+		top:0.5vh;
+		background-image: linear-gradient(#ababab, #6e6e6e);
+		color: black;
+
+		}
+	
+
+       }
+
+
